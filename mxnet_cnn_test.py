@@ -234,4 +234,4 @@ if __name__ == "__main__":
     time_begin = time.time()
     fit(args, net, get_iterator)
     time_end = time.time()
-    print '\nTraining time: %s\n' % time_end - time_begin
+    print '\nTraining time: %.4f\n' % (time_end - time_begin)
