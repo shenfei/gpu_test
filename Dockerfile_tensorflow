@@ -1,0 +1,4 @@
+FROM tensorflow/tensorflow:latest-devel-gpu
+
+RUN curl http://www.cs.toronto.edu/\~kriz/cifar-10-binary.tar.gz
+RUN tar -xzf cifar-10-binary.tar.gz
